@@ -1,0 +1,9 @@
+docker tag imageID Repositoryname
+sudo docker tag ab0c1d3744dd demousr/demorep:1.0
+docker push Repositoryname
+sudo docker push demousr/demorep:1.0
+docker pull demousr/demorep
+
+
+sudo docker rmi 7a86f8ffcb25
+sudo docker images -q 
